@@ -58,7 +58,7 @@ exports.config = (function () {
         getPageTimeout: 50000,
 
         framework: 'custom',
-        frameworkPath: require.resolve('protractor-cucumber-framework'),
+        frameworkPath: require.resolve('serenity-js'),
         specs: [],
         cucumberOpts: {
             require: ['features/**/*.ts', 'env.js'],
